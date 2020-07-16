@@ -3,7 +3,7 @@ import { Form, FormGroup, Label, Input, Col, Button } from 'reactstrap'
 import { AiOutlineUserAdd, AiOutlineUser, AiOutlineExport, AiOutlineForward } from 'react-icons/ai'
 import axios from 'axios'
 
-function CreateStudent(props) {
+const CreateStudent = (props) => {
   const [data, setData] = useState({
     student_name: "",
     student_address: "",
